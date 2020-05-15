@@ -1,10 +1,10 @@
 #!/bin/bash 
-# Name: ShortUrl.sh
-# Version: 0.01
+# Name: shorturl.sh
+# Version: 0.02
 # Author: Cesar Villegas Ureta - https//www.slayerx.org/
 # GitHub repo: https://github.com/cvillegas/bash 
 # License: MIT License
-# Description:  
+# Description:  Expand a shortened URL to see if is malicious or not
 
 checkInternet()
 {
