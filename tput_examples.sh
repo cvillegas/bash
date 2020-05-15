@@ -1,6 +1,10 @@
 #!/bin/bash 
+# Name: tput_examples.sh 
+# Version: 0.01
 # Author: Cesar Villegas Ureta - https//www.slayerx.org/
-# This script will show you some simple examples of the tput usage 
+# GitHub repo: https://github.com/cvillegas/bash 
+# License: MIT License
+# Description: This script will show you examples of the tput usage 
 
 function pause(){
    read -p "$*"
