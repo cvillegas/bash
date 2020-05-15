@@ -1,10 +1,12 @@
 <div align="center">
-![platform](https://img.shields.io/badge/platform-OSX%2C%20Linux%20%26%20Windows-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 # bash
-###Some nice bash examples
+### Some nice bash examples
 ---
+## oshi.sh 
+Upload any file to Oshi service (https://oshi.at) the resultant link will be alive for 15 mins.
 
 ## shorturl.sh 
 Expand a shortened URL to see if is malicious or not 
