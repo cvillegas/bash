@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # bash
-Some nice bash examples
+Some small scripts in bash, hope they can be useful for you :-) 
 
 ---
 ## oshi.sh 

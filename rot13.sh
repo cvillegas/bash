@@ -17,7 +17,8 @@ Example:
 EOF
 }
 
-
-[ $1 -eq 0 ] && { usage; exit 1; }
+if [ "$1" = "" ]; then
+  usage; exit 1;
+fi 
 
 echo $1 | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
