@@ -1,6 +1,6 @@
 #!/bin/bash
 # Name: rot13.sh
-# Version: 0.01
+# Version: 0.02
 # Author: Cesar Villegas Ureta - https//www.slayerx.org/
 # GitHub repo: https://github.com/cvillegas/bash 
 # License: MIT License
@@ -10,7 +10,7 @@ usage()
 {
   cat <<EOF
 
-Usage: rot13.sh string_to_convert
+Usage: rot13.sh string_to_decode
   
 Example:
    rot13.sh "ivfvg zl oybt uggcf://jjj.fynlrek.bet/" 

@@ -1,9 +1,8 @@
-<div align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-</div>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # bash
-### Some nice bash examples
+Some nice bash examples
+
 ---
 ## oshi.sh 
 Upload any file to Oshi service (https://oshi.at) the resultant link will be alive for 15 mins.
