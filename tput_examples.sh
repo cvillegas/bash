@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 # Name: tput_examples.sh 
 # Version: 0.01
 # Author: Cesar Villegas Ureta - https//www.slayerx.org/
@@ -49,12 +49,12 @@ tput setab 0
 echo ""
 
 echo "List of basic colors"
-for i in `seq 0 7`; do tput setaf $i; echo "This is color $i"; done
+for i in $(seq 0 7); do tput setaf "$i"; echo "This is color $i"; done
 pause "Press Enter to continue..."
 echo ""
 
 echo "List of background colors"
-for i in `seq 0 7`; do tput setab $i; echo "This is background color $i"; done
+for i in $(seq 0 7); do tput setab "$i"; echo "This is background color $i"; done
 tput setaf 7
 tput setab 0
 pause "Press Enter key to continue..."

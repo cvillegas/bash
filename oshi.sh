@@ -32,7 +32,7 @@ FILE=$1
 if [ -r "$FILE" ] && [ -s "$FILE" ]
 then
     echo "Uploading $FILE"
-    curl -T $1 https://oshi.at
+    curl -T "$1" https://oshi.at
 else 
     echo "ERROR: the file $FILE is empty"
 fi

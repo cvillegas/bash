@@ -13,20 +13,20 @@ checkInternet()
 
 usage()
 {
-  cat <<EOF
+  cat <<-eof
 Usage: shorturl.sh [URL]
   
 Example:
    Input:  shorturl.sh tinyurl.com/yaexp86y
    Output: https://www.github.com/cvillegas/bash
-EOF
+eof
 }
 
 expandURL()
 {
-  testURL=$( echo $1 | cut -c1-8 )
+  testURL=$( echo "$1" | cut -c1-8 )
   if [[ $testURL != "https://" ]]; then
-    testURL=$( echo $1 | cut -c1-7 )
+    testURL=$( echo "$1" | cut -c1-7 )
     if [[ $testURL != "http://" ]]; then
       url="http://$1"
     else
@@ -35,23 +35,23 @@ expandURL()
   else
     url=$1
   fi
-  response=$(curl -A curl -s https://unshorten.me/s/$url)
-  errorCheck=$(echo $response)
+  response=$(curl -A curl -s https://unshorten.me/s/"$url")
+  errorCheck=$(echo "$response")
   if [[ $errorCheck == "Invalid Short URL" ]]; then
    usage
   return 1
 fi
-  returnedURL=$(echo $response)
+  returnedURL=$(echo "$response")
 }
 
 printResults()
 {
-  cat <<EOF
+  cat <<-eof
 =====================================================================
 Short URL:    $url
 Expanded URL: $returnedURL
 =====================================================================
-EOF
+eof
 }
 
   checkInternet || exit 1

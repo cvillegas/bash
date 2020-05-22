@@ -21,4 +21,4 @@ if [ "$1" = "" ]; then
   usage; exit 1;
 fi 
 
-echo $1 | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
